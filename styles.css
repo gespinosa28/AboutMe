@@ -1,0 +1,13 @@
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.image{
+    grid-column: 1/2;
+}
+
+.bio{
+    grid-column: 2/3;
+    text-align: center;
+}
